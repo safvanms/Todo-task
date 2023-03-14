@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 14px;
+  margin-top: 100px;
+  padding: 20px 0px 20px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+h1 {
+  font-weight: 900;
+  color: rgb(40, 40, 182);
+}
+
+.input-sec {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.input-sec > input {
+  width: 220px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid rgb(106, 106, 108);
+  padding-left: 8px;
+}
+
+.input-sec > button {
+  width: 70px;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.list {
+  padding: 2px 0px 0px 10px;
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions > button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+.actions > :nth-child(1) {
+  color: green;
+}
+.actions > :nth-child(2) {
+  color: red;
+}
