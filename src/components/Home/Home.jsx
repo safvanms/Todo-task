@@ -41,9 +41,9 @@ export default function Home() {
   }
 
   return (
-    <div className="App">
-      <div className="todo">
+    <div className="todo">
         <h1>Todo App</h1>
+      <div className="App">
         <div className="input-sec">
           <input
             type="text"
@@ -54,7 +54,7 @@ export default function Home() {
           />
           <button onClick={addTodo}>Add</button>
         </div>
-        <div>
+        <div >
           {todos.map((todo) => (
             <div key={todo.id} className="lists">
               <input
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="actions">
                 <button
                   onClick={() => {
-                    const newTitle = prompt('Edit Todo', todo.title)
+                    const newTitle = prompt('Edit here', todo.title)
                     if (newTitle !== null) {
                       editTodo(todo.id, newTitle)
                     }
