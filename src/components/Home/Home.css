@@ -69,15 +69,14 @@ h1 {
   margin: 10px 0px 10px 0px;
   border: 1px solid blue;
   padding: 10px;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
 }
 
 .list {
   padding: 2px 0px 0px 10px;
   font-size: 18px;
   width: 200px;
-  height: 30px;
+  height: 100%;
 }
 
 .actions {
